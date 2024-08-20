@@ -50,8 +50,8 @@ namespace Demo01
             rectangulo.Base = 10;
             rectangulo.Altura = 20;
 
-            area = rectangulo.CalcularArea();
-            perimetro = rectangulo.CalcularPerimetro();
+            //area = rectangulo.CalcularArea();
+            //perimetro = rectangulo.CalcularPerimetro();
 
             Console.WriteLine("El area es:");
             Console.WriteLine(area);
