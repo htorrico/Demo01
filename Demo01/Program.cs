@@ -20,6 +20,14 @@ namespace Demo01
             Console.WriteLine(persona.NombresCompletos);
 
 
+            Profesor profesor = new Profesor
+            {
+                Nombres = "",
+                Apellidos = "",
+                Sueldo = 15000
+            };
+
+
             Console.WriteLine("Hola Mundo");
             Console.Read();
             
