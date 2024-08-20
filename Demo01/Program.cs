@@ -27,6 +27,15 @@ namespace Demo01
                 Sueldo = 15000
             };
 
+            Estudiante estudiante = new Estudiante
+            {
+                Apellidos = "Arcos",
+                Nombres = "Jose",
+                Codigo = "201521552"
+            };
+
+
+
 
             Console.WriteLine("Hola Mundo");
             Console.Read();
